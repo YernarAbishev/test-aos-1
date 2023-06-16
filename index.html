@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test-aos-1</title>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <ul class="navigation">
+                <li class="navigation-item"><a href="#modal1" class="open-modal" data-modal="modal1">Конструкция вертолета</a></li>
+                <li class="navigation-item"><a href="#modal2" class="open-modal" data-modal="modal2">Аэродинамика</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="modal-overlay">
+        <div id="modal1" class="modal">
+            <div class="flex-grow">
+                <div class="flex-element">
+                    <h3>Конструкция вертолета</h3>
+                </div>
+                <div class="flex-element">
+                    <a href="#" class="close-modal">X</a>
+                </div>
+            </div>            
+            <ul class="sub-navigation">
+                <li class="sub-navigation-item"><a href="#">Кабина экипажа</a></li>
+                <li class="sub-navigation-item"><a href="#">Грузовое отделение</a></li>
+            </ul>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="flex-grow">
+                <div class="flex-element">
+                    <h3>Аэродинамика</h3>
+                </div>
+                <div class="flex-element">
+                    <a href="#" class="close-modal">X</a>
+                </div>
+            </div> 
+            <ul class="sub-navigation">
+                <li class="sub-navigation-item"><a href="#">Особые случаи</a></li>
+                <li class="sub-navigation-item"><a href="#">Погодные явления</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <main>
+        <div class="main-page">
+            <div class="flex-container">
+                <div class="flex-item mb-10">
+                    <h1 class="mt-10">Тестовое задание</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, est? Ut sint possimus tempore recusandae labore, porro ex mollitia. Similique aperiam optio error ducimus veritatis quis qui accusantium! Similique, ratione.</p>
+                    <a href="#" class="primary-button">Начать</a>
+                </div>
+                <div class="flex-item mb-10">
+                    <img src="./images/main.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+</body>
+</html>
